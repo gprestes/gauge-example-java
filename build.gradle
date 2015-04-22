@@ -11,3 +11,8 @@ dependencies {
 task wrapper(type: Wrapper) {
     gradleVersion = '1.11'
 }
+
+task copyToLib(type: Copy) {
+    into "$projectDir/libs"
+    from configurations.runtime
+}
