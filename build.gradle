@@ -1,5 +1,13 @@
 apply plugin: 'java'
 
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "com.thoughtworks.gauge.maven:gauge-maven-plugin:1.0.0"
+}
+
 task wrapper(type: Wrapper) {
     gradleVersion = '1.11'
 }
