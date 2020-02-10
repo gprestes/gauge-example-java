@@ -8,10 +8,6 @@ dependencies {
     compile "com.thoughtworks.gauge.maven:gauge-maven-plugin:1.4.2"
 }
 
-task wrapper(type: Wrapper) {
-    gradleVersion = '1.11'
-}
-
 task copyToLib(type: Copy) {
     into "$projectDir/libs"
     from configurations.runtime
