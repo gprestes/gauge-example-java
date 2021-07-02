@@ -5,7 +5,7 @@ repositories {
 }
 
 dependencies {
-    compile "com.thoughtworks.gauge.maven:gauge-maven-plugin:1.4.3"
+    compile "com.thoughtworks.gauge.maven:gauge-maven-plugin:1.5.0"
 }
 
 task copyToLib(type: Copy) {
