@@ -4,5 +4,8 @@
   "packageRules": [{
     "matchDepTypes": ["devDependencies"],
     "automerge": true
-  }]
+  }],
+  "extends": [
+    "config:base"
+  ]
 }
